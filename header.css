@@ -1,0 +1,138 @@
+.header-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Konten dalam header */
+.header-content {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 50.62%, rgba(0, 0, 0, 0.2) 100%), #e8b34a;
+    display: flex;
+    gap: 0px;
+    padding: 10px 100px 10px 5px;
+}
+
+/* Konten dalam header pada layar kecil */
+@media (max-width: 991px) {
+    .header-content {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+}
+
+/* Wrapper konten */
+.content-wrapper {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+/* Logo */
+.logo-section {
+    display: flex;
+    gap: 20px;
+}
+
+/* Logo pada layar kecil */
+@media (max-width: 991px) {
+    .logo-section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+
+/* Kolom logo */
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+/* Logo pada layar kecil */
+@media (max-width: 991px) {
+    .logo-column {
+        width: 100%;
+    }
+}
+
+/* Gambar logo */
+.logo-image {
+    aspect-ratio: 0.65;
+    object-fit: auto;
+    object-position: center;
+    width: 55px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+/* Logo gambar pada layar kecil */
+@media (max-width: 991px) {
+    .logo-image {
+        margin-top: 15px;
+    }
+}
+
+/* Kolom teks logo */
+.logo-text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 84%;
+    margin-left: 20px;
+}
+
+/* Teks logo pada layar kecil */
+@media (max-width: 991px) {
+    .logo-text-column {
+        width: 100%;
+    }
+}
+
+/* Teks logo */
+.logo-text {
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    letter-spacing: 13px;
+    align-self: stretch;
+    margin: auto 0;
+    font-family: 'JockeyOne';
+    font-size: 50px;
+}
+
+/* Teks logo pada layar kecil */
+@media (max-width: 991px) {
+    .logo-text {
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+}
+
+/* Navigasi menu */
+.navigation-menu {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: auto 0;
+}
+
+/* Navigasi menu pada layar kecil */
+@media (max-width: 991px) {
+    .navigation-menu {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+/* Item menu */
+.menu-item {
+    font-family: "JockeyOne";
+    text-decoration: none;
+    color: #fff;
+}
