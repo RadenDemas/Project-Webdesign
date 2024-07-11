@@ -1,0 +1,161 @@
+.kopi-section {
+    background-color: #fafaf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 74px 80px;
+    padding-bottom: 0;
+  }
+  @media (max-width: 991px) {
+    .kopi-section {
+      padding: 0 20px;
+    }
+  }
+  .kopi-main-content {
+    width: 100%;
+    max-width: 1669px;
+  }
+  @media (max-width: 991px) {
+    .kopi-main-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .kopi-content-row {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .kopi-content-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .kopi-image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 22.5%;
+    margin-inline-end: 0;
+    margin-block-start: 24px;
+    margin-block-end: 0;
+    padding-top: 26px;
+  }
+  @media (max-width: 991px) {
+    .kopi-image-column {
+      width: 100%;
+    }
+  }
+  .image1 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 300px;
+    margin-top: 28px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .image1 {
+      margin-top: 40px;
+    }
+  }
+  .text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 70%;
+    padding-top: 45px;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .text-column {
+      width: 100%;
+    }
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .text-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .title-kopi {
+    align-self: center;
+    font-family: "JosefinSlab";
+    font-size: 80px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-right: 115px;
+    color: #a27b5c;
+  }
+  @media (max-width: 991px) {
+    .title-kopi {
+      font-size: 40px;
+    }
+  }
+  .description-kopi {
+    font-family: "JosefinSlab";
+    font-size: 30px;
+    color: #a27b5c;
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+  @media (max-width: 991px) {
+    .description-kopi {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .image-gallery {
+    width: 100%;
+    max-width: 1669px;
+  }
+  @media (max-width: 991px) {
+    .image-gallery {
+      max-width: 100%;
+    }
+  }
+  .gallery-row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 26px;
+  }
+  @media (max-width: 991px) {
+    .gallery-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .gallery-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 100%;
+    margin-inline-start: 13px;
+    margin-inline-end: 10px;
+  }
+  @media (max-width: 991px) {
+    .gallery-column {
+      width: 100%;
+    }
+  }
+  .gallery-image-menu {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 400px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .gallery-image {
+      margin-top: 23px;
+    }
+  }
